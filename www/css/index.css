@@ -1,0 +1,37 @@
+body {
+    direction: rtl;
+    font-family: tahoma;
+}
+
+div#wrapper {
+    width: 100%;
+}
+
+div#rightbar {
+    width: 70%;
+    padding: 4px;
+}
+
+div#leftbar {
+    width: 25%;
+    padding: 4px;
+    float: left;
+    background-color: #bbb;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#leftbar ul{
+    display: block;
+    overflow: scroll;
+    max-height: 150px;
+}
+
+#rightbar textarea {
+    max-width: 100%;
+}
+
+#title, #text {
+    direction: rtl;
+    text-align: right;
+}
